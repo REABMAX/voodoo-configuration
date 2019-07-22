@@ -1,0 +1,27 @@
+{
+  "name": "voodoo/configuration",
+  "description": "Voodoo configuration package",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Schröter",
+      "email": "reabmax@googlemail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Voodoo\\Configuration\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Voodoo\\Configuration\\Tests\\": "tests"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "codeception/codeception": "^3.0"
+  }
+}
